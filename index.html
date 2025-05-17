@@ -1,11 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Portafolio - Desarrollador</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        
+        /* Cabecera */
+        header {
+            background-color: #000000;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav li {
+            margin: 0 20px;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+            text-transform: uppercase;
+        }
+        
+        nav a:hover {
+            color: #4CAF50;
+        }
+        
+        /* Secciones */
+        section {
+            padding: 100px 20px;
+            min-height: 100vh;
+        }
+        
+        #inicio {
+            background-color: #121212;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        #proyectos {
+            background-color: #1a1a1a;
+        }
+        
+        #experiencia {
+            background-color: #121212;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        /* Pie de página */
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
+    <!-- Cabecera con navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h1>Bienvenido a mi Portafolio</h1>
+        <p>Desarrollador apasionado por crear soluciones innovadoras</p>
+    </section>
+    
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <!-- Aquí puedes agregar tus proyectos -->
+        <div class="proyecto">
+            <h3>Nombre del Proyecto 1</h3>
+            <p>Descripción del proyecto y tecnologías utilizadas.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Nombre del Proyecto 2</h3>
+            <p>Descripción del proyecto y tecnologías utilizadas.</p>
+        </div>
+    </section>
+    
+    <!-- Sección de Experiencia -->
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <!-- Aquí puedes agregar tu experiencia -->
+        <div class="trabajo">
+            <h3>Nombre del Puesto</h3>
+            <p>Empresa | Fechas</p>
+            <p>Descripción de responsabilidades y logros.</p>
+        </div>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Mi Portafolio - Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
